@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дипломный проект - Название вашей работы</title>
+    <style>
+        /* Базовые стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        nav {
+            background: #34495e;
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Дипломный проект</h1>
+        <p>Тема: "Название вашей дипломной работы"</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">О проекте</a></li>
+            <li><a href="#goals">Цели и задачи</a></li>
+            <li><a href="#methods">Методы исследования</a></li>
+            <li><a href="#results">Результаты</a></li>
+            <li><a href="#conclusion">Выводы</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>О проекте</h2>
+            <p>Здесь представлено краткое описание вашего дипломного проекта. Опишите актуальность темы, проблему, которую вы исследуете, и значение работы.</p>
+            <img src="project-image.jpg" alt="Изображение проекта" style="max-width: 100%; height: auto;">
+        </section>
+        
+        <section id="goals">
+            <h2>Цели и задачи</h2>
+            <h3>Цель исследования:</h3>
+            <p>Сформулируйте основную цель вашей работы.</p>
+            
+            <h3>Задачи:</h3>
+            <ul>
+                <li>Первая задача исследования</li>
+                <li>Вторая задача исследования</li>
+                <li>Третья задача исследования</li>
+            </ul>
+        </section>
+        
+        <section id="methods">
+            <h2>Методы исследования</h2>
+            <p>Опишите методы, которые вы использовали в ходе работы:</p>
+            <ol>
+                <li>Метод 1</li>
+                <li>Метод 2</li>
+                <li>Метод 3</li>
+            </ol>
+        </section>
+        
+        <section id="results">
+            <h2>Результаты исследования</h2>
+            <p>Представьте основные результаты вашей работы. Вы можете добавить таблицы, графики или диаграммы.</p>
+            
+            <table border="1" style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <th>Параметр</th>
+                    <th>До исследования</th>
+                    <th>После исследования</th>
+                </tr>
+                <tr>
+                    <td>Параметр 1</td>
+                    <td>Значение</td>
+                    <td>Значение</td>
+                </tr>
+                <tr>
+                    <td>Параметр 2</td>
+                    <td>Значение</td>
+                    <td>Значение</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="conclusion">
+            <h2>Выводы</h2>
+            <p>Сформулируйте основные выводы по результатам проведенного исследования. Опишите практическую значимость работы и возможные направления дальнейших исследований.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Дипломный проект выполнен: [Ваше имя], [Год]</p>
+        <p>Научный руководитель: [ФИО руководителя]</p>
+        <p>Контактная информация: [ваш email]</p>
+    </footer>
+</body>
+</html>
